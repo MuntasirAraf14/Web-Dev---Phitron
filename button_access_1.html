@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM er button access</title>
+</head>
+<body>
+    <h1>DOM er Button Access precudure - 1</h1>
+    <button id="make-red">Click me</button>
+    <script>
+       
+       document.getElementById('make-red').addEventListener('click', function(){
+        document.body.style.backgroundColor = 'red';
+       })
+
+    </script>
+</body>
+</html>
