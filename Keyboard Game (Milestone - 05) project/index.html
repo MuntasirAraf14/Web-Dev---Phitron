@@ -21,18 +21,18 @@
 
         <!--home screen-->
         
-        <section class="home text-white min-h-screen flex justify-center items-center hidden">
+        <section class="home text-white min-h-screen flex justify-center items-center ">
            <div class="flex flex-col items-center gap-10">
-            <h1 class="text-8xl font-anton uppercase font-bold">ALPHABET CLASH</h1>
-            <p>Unleash Your Keyboard Kung Fu : Press  Now“Enter” to Play</p>
-            <button onclick="" class="btn bg-white text-black">
-                PLay</button>
+            <h1 class="text-8xl font-anton uppercase font-semibold">ALPHABET CLASH PRO</h1>
+            <p class="text-l font-bold">Unleash Your Keyboard Kung Fu : Press  Now“Enter” to Play</p>
+            <button onclick="" class="btn bg-white px-8 rounded-xl text-black font-extrabold">
+                PLay Now</button>
            </div>
         </section>
 
         <!--play ground start-->
 
-        <section class="play-ground">
+        <section class="play-ground hidden">
             <div class="flex flex-col items-center gap-20 pt-20">
                 <!--screen-->
                 <div class="artboard artboard-horizontal phone-6 border-[20px] rounded-2xl border-[#010131CC] bg-[#FFFFFFB3]">
@@ -97,9 +97,13 @@
                 </div>
             </div>
         </section>
-        <!--play ground hidden-->
+        <!--play ground end-->
+
         <!--final score start-->
         <section class="score flex justify-center items-center min-h-screen hidden">
+
+            <!--min-h-screen helps us to take content in center-->
+
             <div class="text-white text-center space-y-6 bg-[#FFFFFF33] p-4 rounded-lg">
                 <h1 class="text-8xl">
                     <span class="font-extrabold">Score: </span>
@@ -109,7 +113,8 @@
                 <p>Practice will make you pro</p>
             </div>        
         </section>
+
     </main>
-    <script src="../alphabet-clash-pro-resources-main/alpha_clash.js"></script>
+    <script src="../Keyboard Game (Milestone - 05) project/alpha_clash.js"></script>
 </body>
 </html>
